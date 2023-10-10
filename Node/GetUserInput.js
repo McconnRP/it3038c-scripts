@@ -8,4 +8,3 @@ process.stdin.on('data', function(data) {
 process.on('exit', function() {
    console.log('Thanks for the info!')
 });
-~     
