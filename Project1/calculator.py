@@ -7,24 +7,24 @@ Please type in the math operation you would like to complete:
 / for division
 ''') #This allows the user to specify which operation they would like to use for their calcuation
             
-    number_1 = int(input('Please enter the first Score: '))  #User input for their first number
-    number_2 = int(input('Please enter the second Score: ')) #User input for their second number
+    score_1 = int(input('Please enter the first Score: '))  #User input for their first score
+    score_2 = int(input('Please enter the second Score: ')) #User input for their second score
 
     if operation == '+':
-        print('{} + {} = '.format(number_1, number_2))   # First operation - addition - adds the two inputs
-        print(number_1 + number_2)
+        print('{} + {} = '.format(score_1, score_2))   # First operation - addition - adds the two inputs
+        print(score_1 + score_2)
 
     elif operation == '-':
-        print('{} - {} = '.format(number_1, number_2))  # Second operation - subtraction - subtracts the two inputs
-        print(number_1 - number_2)
+        print('{} - {} = '.format(score_1, score_2))  # Second operation - subtraction - subtracts the two inputs
+        print(score_1 - score_2)
 
     elif operation == '*':
-        print('{} * {} = '.format(number_1, number_2))  # Third operation - multiplication - multiplies the two numbers
-        print(number_1 * number_2)
+        print('{} * {} = '.format(score_1, score_2))  # Third operation - multiplication - multiplies the two scores
+        print(score_1 * score_2)
 
     elif operation == '/':
-        print('{} / {} = '.format(number_1, number_2))  # Fourth operation - division - divides the two inputs
-        print(number_1 / number_2)
+        print('{} / {} = '.format(score_1, score_2))  # Fourth operation - division - divides the two inputs
+        print(score_1 / score_2)
 
     else:
         print('You have not typed a valid operator, please run the program again.')  #This is an error message that displays if the user does not specify a valid operation (+, -, *, /)
