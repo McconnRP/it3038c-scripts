@@ -18,4 +18,4 @@ How to Run:
    - If the user is unhappy with the password output, they are able to rerun the generator at the end of the process
 5. Use safe generated password!
 
-   Inspiration for this Project is dedicated to 101Computing.Net
+   **Inspiration for this Project is dedicated to 101Computing.Net**
