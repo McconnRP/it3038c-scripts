@@ -1,6 +1,6 @@
-                  **Project 3 - Final Project**
+  **Project 3 - Final Project**
 
-                     **PasswordGenProject**
+  **PasswordGenProject**
 
 For my Final Project I have created a Python Script with the purpose of creating a strong password.  With technology today, having a strong password is essential to keeping the user safe and secure when it comes to their personal information.  A huge issue in account creation and sensitive information breaches is the caused by weak and overused passwords.  The goal of my project was to create something useful that would allows users to have some options when it comes to creating secure passwords.  
 
